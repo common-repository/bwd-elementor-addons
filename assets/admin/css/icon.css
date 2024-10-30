@@ -1,0 +1,477 @@
+.bwdeb-elementor-bundle::after {
+    content: 'bwd' !important;
+    position: absolute !important;
+    right: 7px;
+    top: 7px;
+    color: #fffefe;
+    font-family: initial;
+    background: linear-gradient(90deg, #1D0BCE, #050335);
+    border-radius: 3px;
+    font-size: 11px;
+    padding: 2px 5px;
+    font-style: normal;
+}
+.icon-accordion::before,
+.mtt-team::before, 
+.icon-maskingeffect::before,
+.icon-services::before,
+.icon-mapmasking:before,
+.dual-heading::before,
+.icon-cta::before,
+.icon-dualbutton::before,
+.icon-steps::before,
+.icon-counter::before,
+.icon-pricing::before,
+.icon-imagescroll:before,
+.icon-image-swap:before,
+.icon-progressbar::before,
+.icon-photostack::before,
+.icon-posttiles::before,
+.icon-productlist::before,
+.icon-teamcarousel::before,
+.icon-price-tag::before,
+.icon-business-hours::before,
+.icon-clicktocontact::before,
+.video-popup::before,
+.masking-video::before,
+.author-bio::before,
+.social-share::before,
+.icon-download::before,
+.masonary-post::before,
+.post-accordion::before,
+.product-tiles::before,
+.honeycombs::before,
+.coupon-code::before,
+.image-compare::before,
+.webinar::before,
+.icon-mapmasking::before,
+.logo-filter::before,
+.unfold-content::before,
+.info-circle::before,
+.content-switcher-icon::before,
+.backtotop::before,
+.post-timeline::before,
+.post-image-accordion::before,
+.featured-products::before,
+.product-tiles-cat::before,
+.product-timeline::before,
+.product-list-carousel::before,
+.product-accordion::before,
+.product-img-accordion::before,
+.step-flip::before,
+.service-flip::before,
+.team-flip::before,
+.icon-testimonial::before,
+.creative-list::before,
+.profile-card::before,
+.background-switcher::before,
+.flip-box-carousel::before, 
+.icon-reference::before,
+.icon-skills::before,
+.icon-loading::before,
+.icon-bar-chart::before,
+.icon-about::before,
+.icon-footer::before,
+.icon-header::before,
+.contact-form::before,
+.icon-tab::before,
+.icon-animation::before,
+.icon-slides::before,
+.icon-carousel::before,
+.services::before,
+.icon-alarm-clock::before  {
+font-family: "BWD" !important;
+display: inline-block;
+font-weight: 400;
+font-style: normal;
+font-variant: normal;
+text-rendering: auto;
+line-height: 1;
+-moz-osx-font-smoothing: grayscale;
+-webkit-font-smoothing: antialiased;
+}
+
+
+@font-face {
+  font-family: "BWD";
+  src: url("../font/bwd.eot?1685595855536");
+  src: url("../font/bwd.eot?#iefix") format("embedded-opentype"),
+  url("../font/bwd.woff2?1685595855536") format("woff2"),
+  url("../font/bwd.woff?1685595855536") format("woff"),
+  url("../font/bwd.ttf?1685595855536") format("truetype");
+}
+
+
+.logo-filter::before {
+  content: "\e000";
+}
+
+.icon-wall:before {
+  content: "\e001";
+}
+.post-timeline::before {
+  content: "\e002";
+}
+
+.product-timeline::before {
+  content: "\e003";
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+.mtt-team::before {
+  content: "\e004";
+}
+
+.icon-repeat:before {
+  content: "\e005";
+}
+
+.icon-pricing:before {
+  content: "\e006";
+}
+
+.icon-teamcarousel:before {
+  content: "\e008";
+}
+
+.post-accordion::before {
+  content: "\e00a";
+  transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -o-transform: scale(1.5);
+}
+
+.honeycombs::before {
+  content: "\e00b";
+}
+
+.icon-counter-3:before {
+  content: "\e00c";
+}
+
+.product-img-accordion::before {
+  content: "\e00d";
+}
+
+.icon-loading::before {
+  content: "\e00e";
+}
+
+.icon-call-to-action-1:before {
+  content: "\e00f";
+}
+
+.icon-steps::before {
+  content: "\e010";
+}
+
+.icon-photostack::before {
+  content: "\e012";
+}
+
+.flip-box-carousel::before {
+  content: "\e013";
+  transform: scale(1.4);
+  -webkit-transform: scale(1.4);
+  -moz-transform: scale(1.4);
+  -ms-transform: scale(1.4);
+  -o-transform: scale(1.4);
+}
+
+.icon-cta::before {
+  content: "\e014";
+  opacity: .8;
+}
+
+.icon-price-tag:before {
+  content: "\e015";
+}
+
+.image-compare::before {
+  content: "\e016";
+}
+
+.icon-accordion-1:before {
+  content: "\e017";
+}
+
+.icon-counter::before {
+  content: "\e018";
+}
+
+.icon-mapmasking::before {
+  content: "\e019";
+}
+
+.product-accordion::before {
+  content: "\e01a";
+}
+
+.service-flip::before {
+  content: "\e01b";
+}
+
+.background-switcher::before {
+  content: "\e01c";
+}
+
+.icon-productlist:before {
+  content: "\e01d";
+}
+
+.content-switcher-icon::before {
+  content: "\e01e";
+}
+
+.masonary-post::before {
+  content: "\e01f";
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.icon-image-swap:before {
+  content: "\e020";
+}
+
+.video-popup::before {
+  content: "\e021";
+}
+
+.masking-video::before {
+  content: "\e022";
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+.social-share::before {
+  content: "\e023";
+  transform: scale(1.4);
+  -webkit-transform: scale(1.4);
+  -moz-transform: scale(1.4);
+  -ms-transform: scale(1.4);
+  -o-transform: scale(1.4);
+}
+
+.icon-progressbar::before {
+  content: "\e024";
+}
+
+.author-bio::before {
+  content: "\e025";
+  transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  -o-transform: scale(1.3);
+}
+
+.creative-list::before {
+  content: "\e026";
+}
+
+.icon-icons8-grid-80:before {
+  content: "\e027";
+}
+
+.step-flip::before {
+  content: "\e028";
+}
+
+.icon-download::before {
+  content: "\e029";
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+.icon-posttiles:before {
+  content: "\e02a";
+}
+
+.info-circle::before {
+  content: "\e02b";
+}
+
+.icon-clicktocontact:before {
+  content: "\e02c";
+}
+
+.icon-business-hours:before {
+  content: "\e02d";
+}
+
+.icon-maskingeffect:before {
+  content: "\e02e";
+}
+
+.icon-marketing:before {
+  content: "\e02f";
+}
+
+.backtotop::before {
+  content: "\e030";
+}
+
+.icon-imagescroll:before {
+  content: "\e031";
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+.post-image-accordion::before {
+  content: "\e032";
+}
+
+.icon-dualbutton:before {
+  content: "\e033";
+}
+
+.dual-heading::before {
+  content: "\e034";
+  transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -o-transform: scale(1.5);
+}
+
+.icon-compare-1:before {
+  content: "\e035";
+}
+
+.team-flip::before {
+  content: "\e036";
+}
+
+.icon-accordion:before {
+  content: "\e037";
+}
+
+.service-flip::before {
+  content: "\e038";
+}
+
+.featured-products::before {
+  content: "\e039";
+}
+
+.icon-alarm-clock::before {
+  content: "\e03a";
+}
+
+
+
+.product-list-carousel::before {
+  content: "\e03c";
+}
+
+.webinar::before {
+  content: "\e03d";
+  transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  -o-transform: scale(1.3);
+}
+
+.icon-social-media:before {
+  content: "\e03e";
+}
+
+.services::before {
+  content: "\e03f";
+}
+
+.product-tiles::before {
+  content: "\e040";
+  opacity: .7;
+}
+
+.product-tiles-cat::before {
+  content: "\e041";
+  opacity: .5;
+}
+
+.profile-card::before {
+  content: "\e042";
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+.icon-testimonial::before {
+  content: "\e043";
+}
+
+.icon-2529299-1:before {
+  content: "\e044";
+}
+
+.coupon-code::before {
+  content: "\e045";
+}
+.icon-loading::before {
+  content: "\e00e";
+}
+
+.contact-form::before {
+  content: "\e052";
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+.icon-tab::before {
+  content: "\e053";
+}
+.icon-animation::before {
+  content: "\e051";
+}
+.icon-slides::before {
+  content: "\e055";
+}
+.icon-carousel::before {
+  content: "\e056";
+}
+
+.bwdeb-pro-promotion-text {
+  color: #ff0808;
+  text-decoration: underline !important;
+  text-decoration-color: #0410a9 !important;
+  animation: pulseColor 1.5s infinite;
+}
+
+@keyframes pulseColor {
+  0% {
+    color: #ff0808;
+    text-decoration-color: #0410a9;
+  }
+  50% {
+    color: #f19914;
+    text-decoration-color: #7389e0;
+  }
+  100% {
+    color: #c95c04;
+    text-decoration-color: #0410a9;
+  }
+}

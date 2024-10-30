@@ -1,0 +1,381 @@
+
+.ab-accordion-all p{
+    margin-block-start: 0;
+margin-inline-end: 0;
+margin-block-end: 0;
+margin-inline-start: 0;
+}
+
+.ab-accordion-all a {
+    text-decoration: none;
+}
+.ab-content-wrap ul li {
+    list-style-type: disc!important;
+}
+
+.ab-content-wrap ol li {
+    list-style-type: decimal!important;
+}
+.ab-content-wrap ul,
+.ab-content-wrap ol {
+    padding-block-start: 0;
+    padding-inline-end: 0;
+    padding-block-end: 0;
+    padding-inline-start: 0;
+    
+}
+
+.ab-accordion-all img {
+    max-inline-size: 100%;
+}
+
+.ab-content-wrap a:hover {
+    color: #fff;
+}
+.ab-panel-title {
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+.ab-panel-content-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.ab-content-wrap {
+    flex-basis: 60%;
+    flex: 1;
+}
+.ab-img-wrap {
+    flex-basis: 40%;
+    inline-size: 100%;
+    overflow: hidden;
+}
+.ab-inner-btn {
+    color: #fff;
+    background: red;
+    padding-block-start: 10px;
+padding-inline-end: 12px;
+padding-block-end: 10px;
+padding-inline-start: 12px;
+
+    border-radius: 5px;
+    line-height: 1;
+    font-size: 16px;
+    margin-block-start: 15px;
+    display: inline-block;
+}
+.ab-inner-title {
+    font-size: 30px;
+    font-weight: 600;
+    margin-block-end: 10px;
+}
+.ab-collapsed-icon,
+.ab-expand-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ab-Accordion-default .ab-panel-title .ab-collapsed-icon svg,
+.ab-Accordion-default .ab-panel-title .ab-expand-icon svg {
+    inline-size: 15px;
+}
+/*----- Accordion-1 -----*/
+.ab-Accordion-style1 .ab-Accordion-default {
+    border-radius: 5px;
+    margin-block-end: 10px;
+    background-image: linear-gradient( 135deg, #FFA6B7 10%, #1E2AD2 100%);
+}
+
+.ab-Accordion-style1 .ab-Accordion-heading {
+    padding-block-start: 0;
+padding-inline-end: 0;
+padding-block-end: 0;
+padding-inline-start: 0;
+
+    border-radius: 5px;
+    background: transparent;
+    position: relative;
+}
+.ab-Accordion-style1 .ab-panel-title {
+    display: flex;
+    align-items: center;
+}
+.ab-Accordion-style1 .ab-panel-title .ab-collapsed {
+    display: block;
+    padding-block-start: 20px;
+    padding-inline-end: 30px;
+    padding-block-end: 20px;
+    padding-inline-start: 30px;
+    
+    margin-block-start: 0;
+margin-inline-end: 0;
+margin-block-end: 0;
+margin-inline-start: 0;
+    flex: 1;
+    background: rgba(0, 0, 0, 0.4);
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 5px;
+    position: relative;
+}
+
+.ab-Accordion-style1 .ab-panel-title .ab-collapsed {
+    border: none;
+}
+.ab-Accordion-style1 .ab-Accordion-default .ab-panel-title .ab-collapsed-icon,
+.ab-Accordion-style1 .ab-Accordion-default .ab-panel-title .ab-expand-icon {
+    inset-inline-end: 25px;
+    inset-inline-start: auto;
+    line-height: 0;
+  }
+.ab-collapsed-icon, .ab-expand-icon {
+    position: absolute;
+    inset-inline-start: 14px;
+    color: #fff;
+    font-size: 16px;
+    inset-block-start: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+ .ab-Accordion-default.active .ab-panel-title .ab-collapsed-icon {
+    opacity: 0;
+    visibility: hidden;
+}
+ .ab-Accordion-default .ab-expand-icon {
+    opacity: 0;
+    visibility: hidden;
+}
+ .ab-Accordion-default.active .ab-panel-title .ab-expand-icon {
+    color: rgba(255, 255, 255, 0.5);
+    opacity: 1;
+    visibility: visible;
+}
+.ab-Accordion-style1 .ab-panel-body {
+    
+    background: rgba(0, 0, 0, 0.1);
+    font-size: 17px;
+    color: #fff;
+    line-height: 28px;
+    letter-spacing: 1px;
+    border-top: none;
+    border-radius: 5px;
+    max-block-size: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition:all .4s;
+    overflow: hidden;
+    padding-block-start: 0;
+padding-inline-end: 10px;
+padding-block-end: 0;
+padding-inline-start: 10px;
+
+
+}
+
+/* active class */
+.ab-Accordion-style1 .ab-Accordion-default.active .ab-panel-body {
+    padding-block-start: 20px;
+padding-inline-end: 23px;
+padding-block-end: 20px;
+padding-inline-start: 23px;
+
+    max-block-size: 1500px;
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/*----- Accordion-2 -----*/
+.ab-Accordion-style2 .ab-Accordion-default {
+    margin-block-start: 0;
+margin-inline-end: 30px;
+margin-block-end: 10px;
+margin-inline-start: 30px;
+
+    overflow: hidden;
+    position: relative;
+}
+.ab-Accordion-style2 .ab-Accordion-heading {
+    padding-block-start: 0;
+padding-inline-end: 0;
+padding-block-end: 0;
+padding-inline-start: 0;
+
+    position: relative;
+}
+.ab-Accordion-style2 .ab-panel-title .ab-collapsed {
+    display: block;
+    padding-block-start: 15px;
+padding-inline-end: 20px;
+padding-block-end: 15px;
+padding-inline-start: 20px;
+    margin-block-start: 0;
+margin-inline-end: 0;
+margin-block-end: 0;
+margin-inline-start: 0;
+    background: #14213d;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+}
+.ab-Accordion-style2 .ab-Accordion-default.active .ab-panel-title .ab-collapsed {
+    background: #fb5607;
+}
+ .ab-Accordion-style2 .ab-Accordion-default .ab-panel-title .ab-collapsed-icon,
+ .ab-Accordion-style2 .ab-Accordion-default .ab-panel-title .ab-expand-icon {
+    inset-inline-start: auto;
+    inline-size: 34px;
+    block-size: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #14213d;
+    font-size: 14px;
+    color: #fff;
+    border: 3px solid #fff;
+    inset-inline-end: 16px;
+  }
+
+.ab-Accordion-style2 .ab-panel-title .ab-collapsed:after, 
+.ab-Accordion-style2 .ab-panel-title span.ab-collapsed:after {
+    content: "";
+    inline-size: 17px;
+    block-size: 7px;
+    background: #fff;
+    position: absolute;
+    inset-block-start: 50%;
+    transform: translateY(-50%);
+    inset-inline-end: 0;
+}
+.ab-Accordion-style2 .ab-panel-title .ab-collapsed:after {
+    inline-size: 19px;
+    background: #ababab;
+}
+.ab-Accordion-style2 .ab-panel-body {
+    border-left: 3px solid #14213d;
+    border-top: none;
+    background: #fff;
+    font-size: 15px;
+    color: #fb5607;
+    line-height: 27px;
+    position: relative;
+    max-block-size: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: .4s;
+    padding-block-start: 0;
+padding-inline-end: 20px;
+padding-block-end: 0;
+padding-inline-start: 20px;
+
+}
+.ab-Accordion-style2 .ab-Accordion-default.active .ab-panel-body {
+    padding-block-start: 20px;
+padding-inline-end: 20px;
+padding-block-end: 20px;
+padding-inline-start: 20px;
+    max-block-size: 1500px;
+    visibility: visible;
+    opacity: 1;
+}
+.ab-Accordion-style2 .ab-panel-body p {
+    color: #555b6e;
+}
+.ab-Accordion-style2 .ab-panel-body:before {
+    content: "";
+    block-size: 3px;
+    inline-size: 50%;
+    background: #14213d;
+    position: absolute;
+    inset-block-end: 0;
+    inset-inline-start: 0;
+}
+
+/*----- Responsive --------*/
+
+/*---- md-screen ----*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .ab-Accordion-style2 .ab-Accordion-default.active .ab-panel-body {
+        padding-block-start: 20px;
+padding-inline-end: 20px;
+padding-block-end: 20px;
+padding-inline-start: 20px;
+    }
+}
+
+/*---- md-screen ----*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .ab-Accordion-style13 .ab-Accordion-default.active .ab-panel-body {
+        padding-block-start: 35px;
+padding-inline-end: 75px;
+padding-block-end: 40px;
+padding-inline-start: 75px;
+
+    }
+}
+
+/*---- xs-screen ----*/
+
+@media (max-width: 767px) {
+    .ab-Accordion-style1.active .ab-panel-body {
+        padding-block-start: 20px;
+padding-inline-end: 10px;
+padding-block-end: 20px;
+padding-inline-start: 10px;
+    }
+    .ab-Accordion-style2 .ab-Accordion-default {
+        margin-block-start: 0;
+margin-inline-end: 5px;
+margin-block-end: 10px;
+margin-inline-start: 0px;
+
+    }
+    .ab-Accordion-style2 .ab-Accordion-default.active .ab-panel-body {
+        padding-block-start: 10px;
+padding-inline-end: 10px;
+padding-block-end: 10px;
+padding-inline-start: 10px;
+    }
+}
+
+/*---- sm-screen ----*/
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .ab-Accordion-style1.active .ab-panel-body {
+        padding-block-start: 20px;
+padding-inline-end: 30px;
+padding-block-end: 20px;
+padding-inline-start: 30px;
+    }
+    .ab-Accordion-style2 .ab-Accordion-default {
+        margin-block-start: 0;
+margin-inline-end: 20px;
+margin-block-end: 10px;
+margin-inline-start: 20px;
+
+    }
+    .ab-Accordion-style2 .ab-Accordion-default.active .ab-panel-body {
+        padding-block-start: 20px;
+padding-inline-end: 20px;
+padding-block-end: 20px;
+padding-inline-start: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .ab-panel-content-wrapper {
+        flex-direction: column;
+    }
+    .ab-Accordion-default.active .ab-panel-body {
+    max-block-size: initial!important;
+    }
+}

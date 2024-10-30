@@ -1,0 +1,195 @@
+
+.ptnticker-content-wrap h1,h2,h3,h4,h5,h6,p {
+    margin-block: 0;
+    margin-inline: 0;
+    padding-block: 0;
+    padding-inline: 0;
+}
+.ptnticker-content-wrap ul,li {
+    margin-block: 0;
+    margin-inline: 0;
+    padding-block: 0;
+    padding-inline: 0;
+}
+.ptnticker-content-wrap li{
+    list-style: none;
+}
+.ptnticker-content-wrap a {
+    color: initial;
+    text-decoration: none;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    -o-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s; 
+}
+.ptnticker-content-wrap a:hover {
+    color: initial;
+    text-decoration: none; 
+}
+.ptnticker-content-wrap button {
+    background: #0000!important;
+}
+.ptnticker-ticker-common.sticky {
+    position: fixed;
+    inset-inline-start: 0;
+    inset-inline-end: 0;
+    z-index: 999999999999999999999;
+}
+.ptnticker-ticker-common.sticky.top{
+    inset-block-start: 0;
+}
+.ptnticker-ticker-common.sticky.bottom{
+    inset-block-end: 0;
+}
+
+.ptnticker-ticker-common .owl-prev, .ptnticker-ticker-common .owl-next {
+    position: absolute;
+    inset-block-start: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    user-select: none;
+    transition: all .4s ease-in-out;
+    margin-block: 0;
+    margin-inline: 0;
+    padding-block: 0;
+    padding-inline: 0;
+}
+.ptnticker-ticker-common .owl-prev{
+    inset-inline-end: 45px;
+}
+.ptnticker-ticker-common .owl-next{
+    inset-inline-end: 20px;
+}
+.ptnticker-title,
+.ptnticker-headline{
+    font-family: 'Poppins', sans-serif;
+}
+.position-relative {
+    position: relative;
+}
+.ptnticker-content-wrap {
+    display: flex;
+    align-items: center;
+}
+.ptnticker-slide-box {
+    flex: 1 1 auto;
+    overflow: hidden;
+}
+.ptnticker-title-box {
+    flex: 0 0 auto;
+}
+.ptnticker-title {
+    flex: 0 0 auto;
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 1;
+    font-weight: 600;
+}
+.ptnticker-headline {
+    color: #5F77A7;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1;
+}
+.ptnticker-headline:hover {
+    color: #192744;
+}
+
+.ptnticker-width {
+    margin-block: auto;
+    margin-inline: auto;
+}
+
+
+/* style1 */
+.ptnticker-news-ticker-1 .ptnticker-content-wrap {
+    background: #EAF1F8;
+    border-radius: 5px;
+}
+.ptnticker-news-ticker-1 .ptnticker-items {
+    padding-block-start: 27px;
+    padding-block-end: 27px;
+    padding-inline-start: 27px;
+    padding-inline-end: 65px;
+}
+.ptnticker-news-ticker-1 .ptnticker-title {
+    background: #5F76FF;
+    color: #fff;
+    padding-block: 27px;
+    padding-inline: 35px;
+    border-radius: 5px 0px 0px 5px;
+}
+.ptnticker-news-ticker-1 .ptnticker-pn-icon,
+.ptnticker-news-ticker-1 .owl-prev i,
+.ptnticker-news-ticker-1 .owl-next i {
+    background: #5f76ff;
+    color: #fff;
+    inline-size: 30px;
+    block-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    border-radius: 30% 70% 70% 30% / 48% 53% 47% 52%;
+}
+.ptnticker-news-ticker-1 .owl-nav .owl-prev {
+    inset-inline-end: 55px;
+}
+
+/* style2 */
+.ptnticker-news-ticker-2 .ptnticker-content-wrap {
+    background: #EAF1F8;
+    border-radius: 5px;
+}
+.ptnticker-news-ticker-2 .ptnticker-items {
+    padding-block: 27px;
+    padding-inline: 27px;
+}
+.ptnticker-news-ticker-2 .ptnticker-title {
+    background: #29D18C;
+    color: #fff;
+    padding-block: 27px;
+    padding-inline: 35px;
+    border-radius: 5px 50px 50px 5px;
+}
+.ptnticker-news-ticker-2 .ptnticker-pn-icon,
+.ptnticker-news-ticker-2 .owl-prev i,
+.ptnticker-news-ticker-2 .owl-next i {
+    inline-size: 35px;
+    block-size: 35px;
+    background: #fff;
+    color: #29d18c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 20px;
+}
+.ptnticker-news-ticker-2 .owl-prev:hover,
+.ptnticker-news-ticker-2 .owl-next:hover {
+    background: #29d18c;
+    color: #fff;
+}
+.ptnticker-news-ticker-2 .owl-prev{
+    inset-inline-end: 60px;
+}
+
+@media (max-width: 767px) {
+    .ptnticker-content-wrap {
+        display: block;
+    }
+    .owl-nav.owlActive {
+        display: none!important;
+    }
+    .ptnticker-title {
+        padding-block: 15px;
+        padding-inline: 15px;
+    }
+    .ptnticker-items {
+        padding-inline-end: 15px;
+        padding-block-start: 30px;
+        padding-block-end: 30px;
+        padding-inline-start: 15px;
+    }
+}

@@ -1,0 +1,356 @@
+
+/* 1. Theme default css */
+
+.bwdcp_catagory-img img {
+    inline-size: 100%;
+    block-size: 100% !important;
+    object-fit: cover;
+    object-position: center;
+}
+
+.bwdcp_catagory-img a {
+    block-size: 100%;
+    inline-size: 100%;
+    text-decoration: none;
+    color: initial;
+}
+.category-average-rating {
+    color: #eed415;
+    margin-top: 5px;
+}
+.bwdcp_review_count {
+    color: #000;
+}
+.bwdcp_catagory-img a:hover {
+    color: initial;
+}
+
+/* main-style */
+.bwdcp_catagory-title {
+    font-family: 'Lato', sans-serif;
+    font-size: 21px;
+    line-height: 1;
+    font-weight: 600;
+}
+
+.bwdcp_catagory-disce {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bwdcp_catagory-wrap {
+    inline-size: 100%; 
+    block-size: 100%; 
+    position: relative;
+    transition: all 0.4s ease-in-out;
+}
+
+.bwdcp_catacory-content,
+.bwdcp_catacory-content,
+.bwdcp_catagory-title,
+.bwdcp_catagory-disce
+.bwdcp_catagory-bttn .bwdcp_Cbutton {
+    transition: all 0.4s ease-in-out;
+}
+
+.bwdcp_catagory-bttn {
+    margin-block-start: 13px;
+}
+
+.bwdcp_catagory-bttn .bwdcp_Cbutton {
+    display: inline-block;
+    background: #cc2b5e;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 1;
+    padding-inline: 15px;
+    padding-block: 10px; 
+    border-radius: 4px;
+    transition: all .3s ease-in-out;
+}
+
+.bwdcp_catagory-bttn .bwdcp_Cbutton:hover {
+    background: #af2435;
+}
+
+.bwdcp_catacory-content .bwdcp_catagory-title:hover,
+.bwdcp_catacory-content .bwdcp_catagory-title:hover {
+    color: #cc2b5e;
+}
+
+
+
+/* style1 */
+.bwdcp_catagory_style1 .bwdcp_catagory-img {
+    block-size: 290px;
+}
+
+.bwdcp_catagory_style1 .bwdcp_catagory-img img {
+    border: 2px solid #e2e2e2;
+}
+
+.bwdcp_catagory_style1 .bwdcp_catacory-content {
+    padding-block: 16px;
+    padding-inline: 0;
+    text-align: center;
+    background: #fff;
+}
+
+.bwdcp_catagory_style1 .bwdcp_catagory-title {
+    color: #444444;
+}
+
+.bwdcp_catagory_style1 .bwdcp_catagory-disce {
+    color: #444444;
+    padding-block-start: 10px;
+}
+
+/* style2 */
+.bwdcp_catagory_style2 .bwdcp_catacory-content {
+    position: absolute;
+    inset-block-end: 0;
+    inset-inline-start: 0;
+    padding-inline: 15px; 
+    padding-block: 15px; 
+    inline-size: 100%; 
+    color: #fff;
+    background: #00000059;
+    text-align: center;
+}
+.bwdcp_catagory_style2 .bwdcp_catacory-content .bwdcp_review_count{
+    color: #fff;
+}
+.bwdcp_catagory_style2 .bwdcp_catagory-wrap:hover .bwdcp_catacory-content {
+    background: #000000ba;
+}
+
+.bwdcp_catagory_style2 .bwdcp_catagory-img img {
+    border-radius: 6px 6px 0 0;
+}
+
+.bwdcp_catagory_style2 .bwdcp_catagory-title{
+    color: #fff;
+}
+
+.bwdcp_catagory_style2 .bwdcp_catagory-disce {
+    padding-block-start: 15px; 
+}
+
+/* Ferdaus start */
+.bwdcp_catagory_review {
+    padding-block-start: 15px; 
+}
+
+.bwdcp_catagory_review .bwdcp-star-rating {
+    cursor: pointer;
+}
+
+.bwdcp_catagory_review .bwdcp-star-rating .bwdcp-star-icons {
+    color: #ffe000;
+}
+.bwdcp_none_product {
+    text-align: center;
+}
+
+
+
+
+/* owl-carousel-css start*/
+.owlActive {
+    display: block!important;
+  }
+  
+  /* arrow-style */
+  .bwdcp-slider-common .bwdcp-owl-carousel .bwdcp-owl-nav button.bwdcp-owl-prev,
+  .bwdcp-slider-common .bwdcp-owl-carousel .bwdcp-owl-nav button.bwdcp-owl-next {
+    position: absolute;
+    inset-block-start: 50%;
+    display: inline-block;
+    z-index: 1;
+    cursor: pointer;
+    color: #2c5364;
+    font-size: 16px;
+    block-size: 40px;
+    inline-size: 40px;
+    line-height: 1;
+    margin-block: 0;
+    margin-inline: 0;
+    background: #fbfbfb;
+    box-shadow: 1px 2px 15px 2px rgba(0,0,0,.14);
+    border-radius: 4px;
+    transform: translate(0, -50%);
+    transition: all .4s ease;
+  }
+  .bwdcp-slider-common .bwdcp-owl-carousel .bwdcp-owl-nav button.bwdcp-owl-prev:hover,
+  .bwdcp-slider-common .bwdcp-owl-carousel .bwdcp-owl-nav button.bwdcp-owl-next:hover {
+    background: #f74a00;
+    box-shadow: 1px 2px 15px 2px #f64f5aa7;
+    color: #fff;
+  }
+  .bwdcp-slider-common .bwdcp-owl-carousel .bwdcp-owl-nav button.bwdcp-owl-prev {
+    inset-inline-start: -15px;
+  }
+  .bwdcp-slider-common .bwdcp-owl-carousel .bwdcp-owl-nav button.bwdcp-owl-next {
+    inset-inline-start: auto;
+    inset-inline-end: -15px;
+  }
+  
+  /* dots-style */
+.bwdcp-slider-common .bwdcp-owl-carousel .bwdcp-owl-dots {
+    position: absolute;
+    inline-size: 100%;
+  }
+.bwdcp-slider-common .bwdcp-owl-carousel .bwdcp-owl-dots .bwdcp-owl-dot span{
+    background: transparent;
+    color: #fff;
+    font-size: 15px;
+    line-height: 1;
+    inline-size: initial;
+    block-size: initial;
+    margin-block: initial;
+    margin-inline: initial;
+    display: block;
+    transition: none;
+    border-radius: initial;
+    transition: all .4s ease;
+  }
+.bwdcp-slider-common .bwdcp-owl-carousel .bwdcp-owl-dots .bwdcp-owl-dot:hover span,
+.bwdcp-slider-common .bwdcp-owl-carousel .bwdcp-owl-dots .bwdcp-owl-dot.active span {
+    background: transparent!important;
+  }
+.bwdcp-slider-common .bwdcp-owl-carousel .bwdcp-owl-dots .bwdcp-owl-dot {
+    text-decoration: none;
+    display: inline-block;
+    zoom: 1;
+    inline-size: 20px;
+    block-size: 20px;
+    color: #fff;
+    background: #2c5364;
+    border-radius: 50%;
+    transition: all .4s ease;
+  }
+.bwdcp-slider-common .bwdcp-owl-carousel .bwdcp-owl-dots .bwdcp-owl-dot:not(:last-child) {
+    margin-inline-end: 10px;
+  }
+.bwdcp-slider-common .bwdcp-owl-carousel .bwdcp-owl-dots .bwdcp-owl-dot.active {
+    background: #f74a00;
+}
+.bwdcp_catagory-img {
+    block-size: 350px;
+}
+
+/* style1 */
+.bwdcp_dots1.bwdcp-slider-common .bwdcp-owl-carousel .bwdcp-owl-dots .bwdcp-owl-dot {
+    inline-size: 5px;
+    block-size: 5px;
+}
+.bwdcp_dots1.bwdcp-slider-common .bwdcp-owl-carousel .bwdcp-owl-dots .bwdcp-owl-dot.active {
+    inline-size: 12px;
+    block-size: 12px;
+}
+
+/* style2 */
+.bwdcp_dots2.bwdcp-slider-common .bwdcp-owl-carousel .bwdcp-owl-dots .bwdcp-owl-dot {
+    inline-size: 15px;
+    block-size: 3px;
+    border-radius: 0;
+}
+.bwdcp_dots2.bwdcp-slider-common .bwdcp-owl-carousel .bwdcp-owl-dots .bwdcp-owl-dot.active {
+    inline-size: 30px;
+}
+
+/* style3 */
+.bwdcp_dots3.bwdcp-slider-common .bwdcp-owl-carousel .bwdcp-owl-dots .bwdcp-owl-dot {
+    inline-size: 28px;
+    block-size: 6px;
+    border-radius: 0;
+    border: 2px solid #2c5364;
+    background: transparent;
+}
+.bwdcp_dots3.bwdcp-slider-common .bwdcp-owl-carousel .bwdcp-owl-dots .bwdcp-owl-dot.active {
+    border: 2px dashed #2c5364;
+}
+
+/* style4 */
+.bwdcp_dots4.bwdcp-slider-common .bwdcp-owl-carousel .bwdcp-owl-dots .bwdcp-owl-dot {
+    inline-size: 20px;
+    block-size: 20px;
+    border-radius: 50%;
+    border: 2px solid #f74a00;
+    background: transparent;
+}
+.bwdcp_dots4.bwdcp-slider-common .bwdcp-owl-carousel .bwdcp-owl-dots .bwdcp-owl-dot.active {
+    background: #2c5364;
+}
+
+/* style5 */
+.bwdcp_dots5.bwdcp-slider-common .bwdcp-owl-carousel .bwdcp-owl-dots .bwdcp-owl-dot {
+    inline-size: 20px;
+    block-size: 20px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+}
+.bwdcp_dots5.bwdcp-slider-common .bwdcp-owl-carousel .bwdcp-owl-dots .bwdcp-owl-dot.active {
+    border: 2px solid #f74a00;
+    background: transparent;
+}
+
+/* style6 */
+.bwdcp_dots6.bwdcp-slider-common .bwdcp-owl-carousel .bwdcp-owl-dots .bwdcp-owl-dot {
+    inline-size: 5px;
+    block-size: 20px;
+    border-radius: 0;
+}
+.bwdcp_dots6.bwdcp-slider-common .bwdcp-owl-carousel .bwdcp-owl-dots .bwdcp-owl-dot.active {
+    transform: scale(.80);
+}
+
+/* style7 */
+.bwdcp_dots7.bwdcp-slider-common .bwdcp-owl-carousel .bwdcp-owl-dots .bwdcp-owl-dot {
+    inline-size: 20px;
+    block-size: 20px;
+    border-radius: 50%;
+    border: 2px solid #f74a00;
+    background: transparent;
+}
+.bwdcp_dots7.bwdcp-slider-common .bwdcp-owl-carousel .bwdcp-owl-dots .bwdcp-owl-dot.active {
+    box-shadow: 0 0px 15px #f74a00;
+}
+
+/* style8 */
+.bwdcp_dots8.bwdcp-slider-common .bwdcp-owl-carousel .bwdcp-owl-dots .bwdcp-owl-dot {
+    inline-size: 20px;
+    block-size: 20px;
+    border-radius: 0;
+    background: #f74a00;
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+}
+.bwdcp_dots8.bwdcp-slider-common .bwdcp-owl-carousel .bwdcp-owl-dots .bwdcp-owl-dot.active {
+    background: #2c5364;
+}
+
+/* style9 */
+.bwdcp_dots9.bwdcp-slider-common .bwdcp-owl-carousel .bwdcp-owl-dots .bwdcp-owl-dot {
+    inline-size: 20px;
+    block-size: 20px;
+    border-radius: 0;
+    background: #f74a00;
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+}
+.bwdcp_dots9.bwdcp-slider-common .bwdcp-owl-carousel .bwdcp-owl-dots .bwdcp-owl-dot.active {
+    background: #2c5364;
+}
+
+/* style10 */
+.bwdcp_dots10.bwdcp-slider-common .bwdcp-owl-carousel .bwdcp-owl-dots .bwdcp-owl-dot {
+    inline-size: 20px;
+    block-size: 20px;
+    background: #f74a00;
+    border: 6px solid #2c5364;
+    border-radius: 50%;
+}
+.bwdcp_dots10.bwdcp-slider-common .bwdcp-owl-carousel .bwdcp-owl-dots .bwdcp-owl-dot.active {
+    background: #fff;
+}
+  /* owl-carousel-css end*/

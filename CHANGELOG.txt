@@ -1,0 +1,208 @@
+==Changlog==
+
+v 4.3.8----++
+Code Updated
+
+
+v 4.3.7----++
+Code Updated
+
+
+v 4.3.6----++
+Code Updated
+
+
+v 4.3.5----++
+Added theme builder and new widgets
+
+
+v 4.3.4----++
+Changed dashboard color
+
+
+v 4.3.3----++
+Added woocommerce single page widgets. Now you can edit product single page to use our widgets
+
+
+v 4.3.2----++
+Updated code and added new widgets
+
+
+v 4.3.1----++
+Updated code
+
+
+v 4.3.0----++
+Updated code
+
+
+v 4.2.19----++
+Updated code
+
+
+v 4.2.18----++
+Updated code
+
+
+v 4.2.17----++
+Updated code
+
+
+v 4.2.16----++
+Updated code
+
+
+v 4.2.15----++
+Updated code
+
+
+v 4.2.14----++
+Source to get all updates
+
+
+v 4.2.13----++
+Updated code
+
+
+v 4.2.12----++
+Updated code
+
+
+v 4.2.11----++
+Added header footer builder
+
+
+v 4.2.10----++
+Added a new widget
+
+
+v 4.2.9----++
+Demo url updated
+
+
+v 4.2.8----++
+Dashboard Code Changed
+
+
+v 4.2.7----++
+Updated admin dashboard design and some widgets bugs
+
+
+v 3.2.7----++
+Update on admin dashboard
+
+
+v 3.2.6----++
+Added a product compare widget
+
+
+v 3.2.5----++
+Just updated css
+
+
+v 3.2.4----++
+Just updated code
+
+
+v 3.2.3----++
+Add new feature and updated code
+
+
+v 3.1.3----++
+Updated code
+
+
+v 3.1.2----++
+Error solving and updated code
+
+
+v 3.0.2----++
+Code updated
+
+
+v 3.0.1----++
+Added new extensions
+
+
+v 2.9.0----++
+Added new extensions
+
+
+v 2.8.9----++
+Added new extensions
+
+
+v 2.8.8----++
+Added more new extensions
+
+
+v 2.7.8----++
+Added new extensions
+
+
+v 2.6.8----++
+Code updated
+
+
+v 2.6.7----++
+Added new extensions
+
+
+v 2.6.6----++
+Added new extensions
+
+
+v 2.5.6----++
+Added new extensions
+
+
+v 2.5.5----++
+Added new extensions
+
+
+v 2.4.5----++
+Change carousel code
+
+
+v 2.4.0----++
+Dashboard updated
+
+
+v 2.3.1----++
+Code update
+
+
+v 2.3.0----++
+Added new extensions
+
+
+v 2.2.9----++
+Added a new widget
+
+
+v 2.2.0----++
+Code update
+
+
+v 2.1.1----++
+Added a new widget
+
+
+v 2.1.0----++
+Added more extensions
+
+
+v 1.4.1----++
+Added more widgets
+
+
+v 1.3.9----++
+Boots
+
+
+v 1.3.6----++
+Added a new widget
+
+
+v 1.0----++
+Added some new widgets free and pro

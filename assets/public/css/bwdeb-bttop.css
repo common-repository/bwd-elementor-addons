@@ -1,0 +1,90 @@
+.bwdbtt-scroll-to-top-1.show,
+.bwdbtt-scroll-to-top-2.show,
+.bwdbtt-scroll-to-top-3.show,
+.bwdbtt-scroll-to-top-4.show,
+.bwdbtt-scroll-to-top-5.show {
+    opacity: 1;
+    visibility: visible;
+}
+.bwdbtt-scroll-to-top-1 {
+    position: fixed;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 35px;
+    background: red;
+    right: 25px;
+    bottom: 30px;
+    text-align: center;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 15px;
+    transition: 0.3s;
+    opacity: 0.5s, visibility 0.5s;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+}
+.bwdbtt-scroll-to-top-2,
+.bwdbtt-scroll-to-top-3 {
+    z-index: 99;
+    visibility: hidden;
+    position: fixed;
+    cursor: pointer;
+}
+.bwdbtt-scroll-to-top-1:hover {
+    background: green;
+}
+.bwdbtt-scroll-to-top-2 {
+    right: 50px;
+    bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    opacity: 0;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    background-color: #0ea478;
+    font-size: 22px;
+    transition: 0.6s;
+    transform: translateY(100%);
+}
+.bwdbtt_background_and_main_common_style {
+    padding: 0;
+}
+.bwdbtt-scroll-to-top-2.show {
+    transform: translateY(0);
+}
+.bwdbtt-scroll-to-top-2::after,
+.bwdbtt-scroll-to-top-2::before {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    transition: 0.4s;
+    -webkit-animation: 3s 0.9s infinite ripple;
+    animation: 2s 0.9s infinite ripple;
+    border-radius: 50%;
+    background-color: #0ea478;
+}
+@keyframes ripple {
+    0% {
+      transform: scale(0.1);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(0.6);
+      opacity: .6;
+    }
+    100% {
+      transform: scale(2);
+      opacity: 0;
+    }
+  }

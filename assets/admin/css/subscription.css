@@ -1,0 +1,280 @@
+html.wp-toolbar, #wpbody-content {
+    padding: 0;
+}
+/* For require plugins */
+.widget-requirements {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.widget-requirements h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ff7b0a;
+    font-family: cursive;
+}
+.widget-requirements h3 {
+    font-size: 20px;
+    margin-top: 15px;
+    border-bottom: 2px solid #e5e5e5;
+    padding-bottom: 5px;
+    color: #ff7b0a;
+    font-family: cursive;
+}
+.widget-requirements p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+.widget-requirements strong {
+    color: #ff7b0a;
+}
+
+.bwd-save-button {
+    animation: pulse 0.5s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 5px rgba(52, 152, 219, 0.7);
+    }
+    50% {
+        transform: scale(1.1);
+        box-shadow: 0 0 15px rgba(52, 152, 219, 1);
+    }
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 5px rgba(52, 152, 219, 0.7);
+    }
+}
+
+/*  */
+.bwd-container {
+    text-align: center;
+    color: rgb(126 126 124);
+    padding: 40px;
+    height: 100vh;
+}
+.bwd-container{
+    background-image: url(https://bestwpdeveloper.com/wp-content/uploads/2024/03/Background-1.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bwd-progress-container {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    margin: 30px 0px 30px 0px;
+}
+
+.bwd-progress-bar-back,
+.bwd-progress-bar-front {
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    background-color: rgb(255 123 10);
+    border: none;
+    margin: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.bwd-progress-bar-front {
+    background-color: #031abd; /* Unique progress bar color */
+    transition: 0.4s linear width;
+}
+
+.bwd-step {
+    width: 30px;
+    height: 30px;
+    background: linear-gradient(297.24deg,#050335 8.2%,#1D0BCE 91.8%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid rgb(255 123 10);
+    color: #ffffff;
+    position: relative;
+}
+
+.bwd-step.bwd-checked {
+    color: #ffffff; /* Unique bwd-checked color */
+    border-color: #031abd;
+    transition: all 0.4s linear;
+    transition-delay: 0.3s;
+}
+
+.bwd-step.bwd-checked small {
+    position: absolute;
+    bottom: -20px;
+    font-family: 'Times New Roman', serif; /* Change font family */
+}
+
+.bwd-btn {
+    background: linear-gradient(297.24deg,#050335 8.2%,#1D0BCE 91.8%);
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 165px;
+    font-size: 15px;
+}
+a.bwd-btnn {
+    padding: 0px 20px;
+    font-weight: 600;
+    color: #0093ff;
+    font-size: larger;
+}
+.bwd-btn:hover {
+    opacity: 0.9;
+}
+button#bwdtsk-save-settings {
+    margin-bottom: 10px;
+}
+.bwd-btn:active {
+    transform: scale(0.97);
+}
+
+.bwd-btn:disabled {
+    background-color: #d3d3d3; /* Lighter disabled button color */
+}
+
+
+.bwd-form {
+    text-align: left;
+    margin: 20px 0px 20px 0px;
+}
+
+form {
+    margin: 20px 0px 30px 0px;
+}
+.bwd-form-container .bwd-dashboard-template-pro-promosion-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+
+/* For subscribe form */
+.newsletter-form {
+    text-align: center;
+}
+
+.newsletter-form input[type="email"] {
+    flex: 1;
+    padding: 10px 15px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.newsletter-form input[type="email"]:focus {
+    border-color: #007bff;
+}
+
+.newsletter-form button[type="submit"] {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background: linear-gradient(297.24deg,#050335 8.2%,#1D0BCE 91.8%);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.newsletter-form button[type="submit"]:hover {
+    background: linear-gradient(297.24deg,#f756a4 8.2%,#5a89f7 91.8%);
+}
+
+.newsletter-form input[type="email"]::placeholder {
+    color: #999;
+}
+.bwd-dashb-subs-style, .bwd-dashb-subs-style .bwd-widgets-area-container{
+    background: transparent !important;
+}
+
+/* For remove un-necessery content from the page */
+#wpadminbar, #adminmenuback, #adminmenuwrap, #wpfooter, #screen-meta, #screen-meta-links, .e-notice--dismissible, #wpbody-content .notice, #wpbody-content .updated {
+    display: none !important;
+}
+#wpcontent {
+    margin-left: 0;
+    padding: 0;
+}
+body.wp-admin {
+    background-color: #fff;
+    text-align: center;
+}
+.wrap {
+    max-width: 800px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+/* For congratulation */
+    .congratulation-wrapper {
+        max-width: 550px;
+        margin-inline: auto;
+        -webkit-box-shadow: 0 0 20px #f3f3f3;
+        box-shadow: 0 0 20px #f3f3f3;
+        padding: 30px 20px;
+        background-color: #fff;
+        border-radius: 10px;
+    }
+
+    .congratulation-contents.center-text .congratulation-contents-icon {
+        margin-inline: auto;
+    }
+    .congratulation-contents-icon {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        height: 100px;
+        width: 100px;
+        background-color: #65c18c;
+        color: #fff;
+        font-size: 50px;
+        border-radius: 50%;
+        margin-bottom: 30px;
+    }
+    .congratulation-contents-title {
+        font-size: 32px;
+        line-height: 36px;
+        margin: -6px 0 0;
+    }
+    .congratulation-contents-para {
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 15px;
+    }
+    .btn-wrapper {
+        display: block;
+    }
+    .cmn-btn.btn-bg-1 {
+        background: #6176f6;
+        color: #fff;
+        border: 2px solid transparent;
+        border-radius:3px;
+        text-decoration: none;
+        padding:5px;
+    }
+    .congratulation-contents.center-text {
+        text-align: center;
+    }

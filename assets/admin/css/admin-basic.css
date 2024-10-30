@@ -1,0 +1,165 @@
+
+a.bwdeb_pro_action {
+  font-weight: 800;
+  color: #c70065;
+}
+/* For pro text */
+.bwd-profree-badge span{
+  color: #ff0000;
+}
+/* Hide for the top extra table. Space issue */
+.bwdeb-admin-wrapper .form-table{
+  display: none;
+}
+
+/* I'm just trying to use a toggle switch here */
+.bwd-switch {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  width: 55px;
+  height: 28px;
+}
+
+.bwd-switch input {
+  display: none;
+}
+
+.bwd-slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  border-radius: 34px;
+  transition: .4s;
+}
+
+.bwd-slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  border-radius: 50%;
+  transition: .4s;
+}
+.bwd-switch input:checked + .bwd-slider {
+  background-color: #2196F3;
+}
+
+.bwd-switch input:checked + .bwd-slider:before {
+  transform: translateX(26px);
+}
+
+.bwdeb-label {
+  position: absolute;
+  top: 50%;
+  left: 70px;
+  transform: translateY(-50%);
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Pro permission */
+.bwdeb_pro_permission{
+  position: relative;
+}
+.bwdeb_pro_permission::after{
+  content: '';
+  position: absolute;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  z-index:1;
+  background: transparent;
+  cursor: pointer;
+}
+.bwdeb_pro_pro_per{
+  position: absolute;
+  top: 0px;
+  left: 0;
+  padding: 5px;
+  background: #b900e8;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 1;
+  font-family: nunito, sans-serif;
+  border-radius: 20px 20px 0;
+  -webkit-border-radius: 20px 20px 0;
+  -moz-border-radius: 20px 20px 0;
+  -ms-border-radius: 20px 20px 0;
+  -o-border-radius: 20px 20px 0;
+}
+.bwd-widget-cat-title span {
+  font-size: 15px;
+  color: #b0009e;
+}
+/* For the pro widgets check */
+.bwd-single-widget-item:has(.bwdeb_pro_permission), .bwd-single-widget-item:has(.bwdeb_pro_active),
+.bwd-single-widget-if-no-pro:has(.bwdeb_pro_permission), .bwd-single-widget-if-no-pro:has(.bwdeb_pro_active){
+  background-color: #e63b3b14;
+}
+
+/* Thit css for the about plugin admin dashboard page */
+.bwdea-container{
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.bwdea-container h2{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 35px;
+  margin-bottom: 25px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.bwdea-container .services{
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.bwdea-container .services .bwdea-card{
+  width: 300px;
+  text-align: center;
+  background: #d0d3d3;
+  padding: 20px 22px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.bwdea-container .services .bwdea-card:hover{
+  background: #c1c1c1;
+}
+.bwdea-container .services .bwdea-card .content{
+  transition: 0.3s;
+}
+.bwdea-container .services .bwdea-card:hover .content{
+  transform: scale(1.07);
+}
+.bwdea-container .services .bwdea-card .content .icon{
+  padding: 5px 0;
+  color: white;
+}
+.bwdea-container .services .bwdea-card .content .icon i{
+  font-size: 40px;
+}
+.bwdea-container .services .bwdea-card:hover .content .title{
+  color: white;
+}
+.bwdea-container .services .bwdea-card .content .title{
+  padding: 5px 0;
+  font-size: 24px;
+  font-weight: 500;
+  color: chocolate;
+  transition: 0.3s;
+}

@@ -1,0 +1,52 @@
+{
+    "landingPage": "/wp-admin/plugins.php",
+    "preferredVersions": {
+        "php": "8.0",
+        "wp": "latest"
+    },
+    "phpExtensionBundles": [
+        "kitchen-sink"
+    ],
+    "features": {
+        "networking": true
+    },
+    "steps": [
+        {
+            "step": "installPlugin",
+            "pluginZipFile": {
+                "resource": "wordpress.org/plugins",
+                "slug": "woocommerce"
+            },
+            "options": {
+                "activate": true
+            }
+        },
+        {
+            "step": "installPlugin",
+            "pluginZipFile": {
+                "resource": "url",
+                "url": "https://downloads.wordpress.org/plugin/bwd-elementor-addons.4.2.13.zip"
+            },
+            "options": {
+                "activate": true
+            }
+        },
+        {
+            "step": "login",
+            "username": "admin",
+            "password": "password"
+        }
+    ],
+    "pluginInfo": {
+        "name": "BWD Elementor Addons",
+        "description": "BWD Elementor Addons is a plugin built on the Elementor page builder platform. It includes several widgets that can be used to create custom designs for your website. One of the main features of the plugin is the variety of preset designs available, which can save time and simplify the design process. Overall, the plugin aims to enhance the functionality and design capabilities of the Elementor page builder.",
+        "pluginURI": "https://bwdelementoraddons.com",
+        "version": "4.2.13",
+        "author": "Best WP Developer",
+        "authorURI": "https://bestwpdeveloper.com/",
+        "textDomain": "bwd-elementor-addons",
+        "elementorTestedUpTo": "3.19.2",
+        "elementorProTestedUpTo": "3.19.2",
+        "domainPath": "/languages"
+    }
+}

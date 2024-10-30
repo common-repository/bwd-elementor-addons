@@ -1,0 +1,122 @@
+.bwdadt_td {
+    vertical-align: middle!important;
+}
+.bwdadt-body-text,
+.bwdadt_Table-button {
+    text-decoration: none;
+    color: initial;
+    outline: none;
+    transition: all 0.4s;
+}
+.bwdadt-body-text{
+    display: inline-block!important;
+}
+.bwdadt_Table-button{
+    display: inline-block;
+}
+.bwdadt-body-text:hover,
+.bwdadt_Table-button:hover{
+    color: initial;
+}
+
+/* main_css */
+.bwdadt_common pre, .bwdadt_common fieldset, .bwdadt_common input, .bwdadt_common textarea, .bwdadt_common table, .bwdadt_common table *, .bwdadt_common hr {
+    border-color: initial;
+    border: initial;
+}
+.bwdadt_show_overflow {
+    overflow-x: scroll!important;
+}
+
+.bwdadt_header-title,
+.bwdadt-body-text,
+.bwdadt_Table-button {
+    font-family: 'Josefin Sans', sans-serif;
+}
+.bwdadt_table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0;
+}
+.bwdadt_table .bwdadt_th_image_inline_block{
+    display: inline-block
+}
+.bwdadt_table .bwdadt_th_image_block{
+    display: block;
+    margin: auto;
+}
+.bwdadt_header-title{
+    display: inline-block;
+}
+.bwdadt_th_image {
+    display: inline-block;
+    width: 45px;
+}
+.bwdadt_Table-button {
+    background: #ff1046;
+    color: #fff;
+    padding: 8px 12px;
+    line-height: 1;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 4px;
+    display: inline-block;
+    transition: all .4s ease-in-out;
+}
+.bwdadt-body-img {
+    width: 100px;
+    height: auto;
+    display: inline-block;
+}
+.bwdadt_header-icon,
+.bwdadt-body-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* style1 */
+.bwdadt_CreativeTable_1 .bwdadt_table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.bwdadt_CreativeTable_1 td, .bwdadt_CreativeTable_1 th{
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+.bwdadt_CreativeTable_1 th{
+    background: #00008b;
+    color: #fff;
+    text-transform: capitalize;
+}
+.bwdadt_CreativeTable_1 td{
+    background-color: #f5f5f5;
+}
+
+
+/* style2 */
+.bwdadt_CreativeTable_2 th {
+    background: #ee2828;
+    font-size: 18px;
+    padding: 12px;
+    font-weight: 700;
+    border: 1px solid #dee23685;
+    text-align: center;
+}
+.bwdadt_CreativeTable_2 td {
+    background: #3c3f44;
+    padding: 12px;
+    border: 1px solid #dee23685;
+    text-align: center;
+}
+.bwdadt_CreativeTable_2 td:hover,
+.bwdadt_CreativeTable_2 th:hover{
+    background-color: #000000;
+}
+
+
+.bwdadt_CreativeTable_2 .bwdadt-body-text,
+.bwdadt_CreativeTable_2 th {
+    color: #fff;
+}

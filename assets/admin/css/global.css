@@ -1,0 +1,21 @@
+
+#toplevel_page_bwdeb-plugin-main-menu .wp-menu-image img {
+    max-width: 37px !important;
+    rotate: 90deg;
+    position: relative;
+    left: 5px;
+    top: 14px;
+  }
+  #toplevel_page_bwdeb-plugin-main-menu .current.menu-top, #toplevel_page_bwdeb-plugin-main-menu .wp-has-current-submenu{
+    background: linear-gradient(90deg, #1d2327, #787878) !important;
+  }
+.bwdeb-notice-btn{
+  padding: 5px 10px;
+  border-radius: 4px;
+  color: white;
+  background: linear-gradient(90deg, #050335, #1D0BCE);
+  border: none;
+  margin: 5px 0;
+  font-size: small;
+  cursor: pointer;
+}
